@@ -52,19 +52,19 @@ SRCS = 		libft/ft_isalpha.c \
 			ft_printf/ft_print_hexa.c \
 			ft_printf/ft_print_ptr.c \
 			ft_printf/ft_print_str.c \
-			ft_printf/ft_printf.c
+			ft_printf/ft_printf.c \
 			gnl/get_next_line.c \
 			gnl/get_next_line_utils.c 
 
-BONUS =		ft_lstnew.c \
-			ft_lstadd_front.c \
-			ft_lstsize.c \
-			ft_lstlast.c \
-			ft_lstadd_back.c \
-			ft_lstdelone.c \
-			ft_lstclear.c \
-			ft_lstiter.c \
-			ft_lstmap.c
+BONUS =		libft/ft_lstnew.c \
+			libft/ft_lstadd_front.c \
+			libft/ft_lstsize.c \
+			libft/ft_lstlast.c \
+			libft/ft_lstadd_back.c \
+			libft/ft_lstdelone.c \
+			libft/ft_lstclear.c \
+			libft/ft_lstiter.c \
+			libft/ft_lstmap.c
 
 HEADERS =	libft.h
 
