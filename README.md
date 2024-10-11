@@ -43,6 +43,6 @@ Libft includes the following functions:
 To use Libft, simply clone the repository and compile it:
 
 ```bash
-git clone <REPOSITORY_URL>
+git clone https://github.com/painpats/Libft-42.git
 cd libft
 make
