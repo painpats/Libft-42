@@ -2,7 +2,7 @@
 
 ## Description
 
-Libft is a personal C library that I developed as part of my common core at 42. This project aims to recreate some usual functions from the standard C library. I will use this as a base library for several project in the common core.
+`Libft` is a personal C library that I developed as part of my common core at 42. This project aims to recreate some usual functions from the standard C library. I will use this as a base library for several project in the common core.
 
 ![Libft results](Assets/libft.png)
  
