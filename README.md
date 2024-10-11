@@ -43,8 +43,10 @@ Libft includes the following functions:
 ## Upgrades
 
 ### ft_printf
+![ft_printf results](Assets/ft_printf.png)
 
 ### get_next_line
+![gnl results](Assets/gnl.png)
 
 ## Installation
 
