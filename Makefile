@@ -53,6 +53,8 @@ SRCS = 		libft/ft_isalpha.c \
 			ft_printf/ft_print_ptr.c \
 			ft_printf/ft_print_str.c \
 			ft_printf/ft_printf.c
+			gnl/get_next_line.c \
+			gnl/get_next_line_utils.c 
 
 BONUS =		ft_lstnew.c \
 			ft_lstadd_front.c \
@@ -83,14 +85,13 @@ all: $(NAME)
 .c.o:
 	$(CC) $(CFLAGS) -c $< -o $(<:.c=.o)
 
-$(NAME): $(OBJ)
+$(NAME): $(OBJ) $(BONUS_OBJ)
 	$(CLIB) $(NAME) $(OBJ)
-
-bonus: $(BONUS_OBJ)
 	$(CLIB) $(NAME) $(BONUS_OBJ)
 
 clean:
-	$(RM) *.o
+	$(RM) $(OBJ)
+	$(RM) $(BONUS_OBJ)
 
 fclean: clean
 	$(RM) $(NAME)
