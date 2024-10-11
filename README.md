@@ -40,6 +40,12 @@ Libft includes the following functions:
   - `ft_lstiter`
   - `ft_lstmap`
 
+## Upgrades
+
+### ft_printf
+
+### get_next_line
+
 ## Installation
 
 To use Libft, simply clone the repository and compile it:
