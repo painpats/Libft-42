@@ -43,10 +43,33 @@ Libft includes the following functions:
 ## Upgrades
 
 ### ft_printf
+`ft_printf` is a custom implementation of the standard `printf` function from the C library.
+
 ![ft_printf results](Assets/ft_printf.png)
 
+The `ft_printf` function supports the following format specifiers:
+
+- `%c` - Print a character
+- `%s` - Print a string
+- `%p` - Print a pointer address
+- `%d` - Print an integer (decimal)
+- `%i` - Print an integer (same as `%d`)
+- `%u` - Print an unsigned integer
+- `%x` - Print a hexadecimal number (lowercase)
+- `%X` - Print a hexadecimal number (uppercase)
+- `%%` - Print a percent sign
+
+
 ### get_next_line
+`get_next_line` is a function designed to read a line from a file descriptor, including support for reading from standard input.
+
 ![gnl results](Assets/gnl.png)
+
+- Reads a line from a file descriptor, returning the line as a string.
+- Handles multiple file descriptors simultaneously.
+- Supports reading from standard input.
+- Automatically manages memory allocation and deallocation.
+
 
 ## Installation
 
@@ -54,5 +77,5 @@ To use Libft, simply clone the repository and compile it:
 
 ```bash
 git clone https://github.com/painpats/Libft-42.git
-cd libft
+cd Libft-42
 make
